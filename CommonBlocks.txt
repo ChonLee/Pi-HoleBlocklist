@@ -1,37 +1,41 @@
+#########################################################################
+#																		#
+#	These are the ads found in the wiki	here...							#
+#	https://discourse.pi-hole.net/t/commonly-blacklisted-domains/305	#
+#																		#
+#########################################################################
+
+
+
 #Waze
-127.0.0.1 adsassets.waze.com
+127.0.0.1	adsassets.waze.com
 
 #Twitch
-127.0.0.1 api.mixpanel.com spade.twitch.com pubads.g.doubleclick.net sb.scorecardresearch.com
+127.0.0.1	api.mixpanel.com spade.twitch.com pubads.g.doubleclick.net sb.scorecardresearch.com
 
 #Pandora
-127.0.0.1 ad.pandora.tv ads.pandora.tv.net stats.pandora.com adserver.pandora.com
+127.0.0.1	ad.pandora.tv ads.pandora.tv.net stats.pandora.com adserver.pandora.com
 
 #Various
-127.0.0.1 wsp.mgid.com
+127.0.0.1	wsp.mgid.com
 
-#TED app on Apple TV 37
-127.0.0.1 s0.2mdn.net
+#TED app on Apple TV
+127.0.0.1	s0.2mdn.net
 
-Alexa Voice Assistant
-As discovered here 439.
+#Alexa Voice Assistant
+127.0.0.1	sp-alexa-eu.amazon.com
 
-pihole -b vsp-alexa-eu.amazon.com
-Ads and tracking on Xiaomi devices
-pihole -b api.ad.xiaomi.com api.admob.xiaomi.com api.d.xiaomi.com a.stat.xiaomi.com tracking.miui.com cdn.ad.xiaomi.com data.mistat.xiaomi.com e.ad.xiaomi.com globalapi.ad.xiaomi.com new.api.ad.xiaomi.com sdkconfig.ad.xiaomi.com ssp.ad.xiaomi.com test.ad.xiaomi.com test.e.ad.xiaomi.com test.new.api.ad.xiaomi.com cc.sys.intl.xiaomi.com cc.sys.miui.com ccc.sys.miui.com ccc.sys.intl.xiaomi.com data.mistat.intl.xiaomi.com adv.sec.miui.com geofence.sys.miui.com abtest.mistat.xiaomi.com logupdate.avlyun.sec.miui.com mazu.sec.miui.com feedback.miui.com data.sec.miui.com data.mistat.intl.xiaomi.com
-Roku
-As described here 583.
+#Ads and tracking on Xiaomi devices
+127.0.0.1	api.ad.xiaomi.com api.admob.xiaomi.com api.d.xiaomi.com a.stat.xiaomi.com tracking.miui.com cdn.ad.xiaomi.com data.mistat.xiaomi.com e.ad.xiaomi.com globalapi.ad.xiaomi.com new.api.ad.xiaomi.com sdkconfig.ad.xiaomi.com ssp.ad.xiaomi.com test.ad.xiaomi.com test.e.ad.xiaomi.com test.new.api.ad.xiaomi.com cc.sys.intl.xiaomi.com cc.sys.miui.com ccc.sys.miui.com ccc.sys.intl.xiaomi.com data.mistat.intl.xiaomi.com adv.sec.miui.com geofence.sys.miui.com abtest.mistat.xiaomi.com logupdate.avlyun.sec.miui.com mazu.sec.miui.com feedback.miui.com data.sec.miui.com data.mistat.intl.xiaomi.com
 
-pihole -b tyler.logs.roku.com giga.logs.roku.com cooper.logs.roku.com
-Sonos Metrics
-As described here 216.
+#Roku
+127.0.0.1	tyler.logs.roku.com giga.logs.roku.com cooper.logs.roku.com
 
-pihole -b msmetrics.ws.sonos.com 
+#Sonos Metrics
+127.0.0.1	msmetrics.ws.sonos.com 
+
 JavaScript based crypto currency mining
-pihole -b coin-hive.com www.coin-hive.com
-Ads on sueddeutsche.de 92
-pihole -b cdn.m-pathy.com click-de.plista.com farm-de.plista.com static-de.plista.com www.plista.com plista.com click.plista.com
-1
+127.0.0.1	coin-hive.com www.coin-hive.com
 
-
-
+Ads on sueddeutsche.de
+127.0.0.1	cdn.m-pathy.com click-de.plista.com farm-de.plista.com static-de.plista.com www.plista.com plista.com click.plista.com
