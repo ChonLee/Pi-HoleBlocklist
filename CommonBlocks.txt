@@ -1,6 +1,6 @@
 #########################################################################
 #																		#
-#	These are the ads found in the wiki	here...							#
+#	These are the ads found in the wiki here...							#
 #	https://discourse.pi-hole.net/t/commonly-blacklisted-domains/305	#
 #																		#
 #########################################################################
@@ -39,3 +39,6 @@ JavaScript based crypto currency mining
 
 Ads on sueddeutsche.de
 127.0.0.1	cdn.m-pathy.com click-de.plista.com farm-de.plista.com static-de.plista.com www.plista.com plista.com click.plista.com
+
+#Hulu Attempts
+127.0.0.1	ads-e-darwin.hulustream.com
